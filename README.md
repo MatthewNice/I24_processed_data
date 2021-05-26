@@ -1,7 +1,7 @@
 # I24_processed_data
  
 ## Context
-There is a lot of traffic on I-24, but how will we know where the heavy traffic is? What is the time gap of the cars? The density of traffic? This data can help answer those questions.
+There is a lot of traffic on I-24, but how will we know where the heavy traffic is? What is the time gap of the cars? The density of traffic? This data can help answer those questions. Right now the data is not public, but you can contact Matt at matthew(dot)nice(at)vanderbilt(dot)edu for data access.
 
 ## Content
 
