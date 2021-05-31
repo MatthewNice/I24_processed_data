@@ -10,6 +10,8 @@ This is driving dataset of CAN-derived data, created by Matt Nice.
 It was created by recording CAN and GPS data from a single vehicle driving on I-24 during morning (8AM-9AM) and evening (5PM-6PM) traffic. Matt cleaned the raw data and now it's up to you to make data analysis magic. The dataset includes Time, Velocity, Acceleration, Space Gap, Lateral Distance, Relative Velocity, Longitude GPS, Latitude GPS, Score, TrackID, L_Approach, R_Approach, L_Adjacent, and R_Adjacent.
 
 ## Notes on Specific Variables
+The first column in some files is an unnamed feature. It was included in error, it is simply the index of the dataframe in python before export. You can discard this.
+
 Time - This is Epoch time (seconds) from a GPS module. All other features are interpolated to GPS time.
 
 Velocity - Measurements are in kph.
