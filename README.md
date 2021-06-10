@@ -28,6 +28,6 @@ L_Approach, R_Approach - Binary signal, signifying a vehicle approaching in the 
 
 L_Adjacent, R_Adjacent - Binary signal, signifying a vehicle directly adjacent in the lane to L/R. (these should be integers, but is compromised by interpolating to GPS time)
 
-Acknowledgements: Gracie Gumm and Michael Roman did the vast majority of driving to record this driving data.
+Acknowledgements: Gracie Gumm and Michael Roman did a significant part of the driving to record this driving data.
 
 This is intended as a limited snapshot of driving data to provide insight into traffic patterns on I-24 outside of Nashville. It was created in May 2021.
