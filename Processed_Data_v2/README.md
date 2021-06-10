@@ -5,11 +5,13 @@ There is a lot of traffic on I-24, but how will we know where the heavy traffic 
 
 ## Content
 
-This is a snapshot of a dataset created by Matt Nice.
+This is driving dataset of CAN-derived data, created by Matt Nice.
 
 It was created by recording CAN and GPS data from a single vehicle driving on I-24 during morning (8AM-9AM) and evening (5PM-6PM) traffic. Matt cleaned the raw data and now it's up to you to make data analysis magic. The dataset includes Time, Velocity, Acceleration, Space Gap, Lateral Distance, Relative Velocity, Longitude GPS, Latitude GPS, Score, TrackID, L_Approach, R_Approach, L_Adjacent, and R_Adjacent.
 
 ## Notes on Specific Variables
+The first column in some files is an unnamed feature. It was included in error, it is simply the index of the dataframe in python before export. You can discard this.
+
 Time - This is Epoch time (seconds) from a GPS module. All other features are interpolated to GPS time.
 
 Velocity - Measurements are in kph.
@@ -26,6 +28,6 @@ L_Approach, R_Approach - Binary signal, signifying a vehicle approaching in the 
 
 L_Adjacent, R_Adjacent - Binary signal, signifying a vehicle directly adjacent in the lane to L/R. (these should be integers, but is compromised by interpolating to GPS time)
 
-Acknowledgements: Gracie Gumm and Michael Roman did the vast majority of driving to record this driving data.
+Acknowledgements: Gracie Gumm and Michael Roman did a significant part of the driving to record this driving data.
 
 This is intended as a limited snapshot of driving data to provide insight into traffic patterns on I-24 outside of Nashville. It was created in May 2021.
