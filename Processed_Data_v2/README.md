@@ -30,4 +30,4 @@ L_Adjacent, R_Adjacent - Binary signal, signifying a vehicle directly adjacent i
 
 Acknowledgements: Gracie Gumm and Michael Roman did a significant part of the driving to record this driving data.
 
-This is intended as a limited snapshot of driving data to provide insight into traffic patterns on I-24 outside of Nashville. It was created in May 2021.
+This is intended as a limited snapshot of driving data to provide insight into traffic patterns on I-24 outside of Nashville. It was created in May 2021. More data added in June 2021.
